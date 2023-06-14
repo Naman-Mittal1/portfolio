@@ -25,6 +25,7 @@ const HeadInfo = () => {
     color: 'red',
     marginTop: '5px'
   };
+  
 
   const promptStyling = {
     color: '#00abfe'
