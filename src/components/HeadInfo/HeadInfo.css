@@ -161,14 +161,17 @@ body {
 }
 
 .home-sci a {
+    margin-left: 0;
+    gap: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    /* width: -5px; */
+    padding: 8px;
+    height: 44px;
     background: transparent;
     border: 2px solid #00abfe;
-    border-radius: 50%;
+    border-radius: 72%;
     font-size: 20px;
     color: #00abfe;
     text-decoration: none;
