@@ -1,0 +1,43 @@
+.bg-primary{
+    margin: 5% 0 3% 10%;
+}
+.container {
+    background: rgb(5 8 22 / 1);
+  }
+  
+  .paragraph {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: rgb(170 166 195 / 1);
+  }
+  
+  .heading {
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+  }
+
+  .base-text{
+    font-size: 30px;
+  }
+
+  .experience-text{
+    font-size: 50px;
+  }
+  
+  @media (min-width: 640px) {
+    .sm\:px-16 {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+  
+    .sm\:py-16 {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  
+    .sm\:text-\[18px\] {
+      font-size: 18px;
+    }
+  }

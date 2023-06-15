@@ -1,0 +1,12 @@
+.container {
+    /*  background-color: var(--light-shade); */
+    padding: 0 5% 3% 5%;
+}
+
+.projectme{
+    margin:3% 0 3% 10% !important; 
+  }
+
+.container h1 {
+    text-align: center;
+}
