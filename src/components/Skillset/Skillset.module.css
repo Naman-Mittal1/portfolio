@@ -1,0 +1,56 @@
+.skillset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+
+  .skillsetme{
+    padding: 5% 0 3% 10%;
+  }
+  
+  .border {
+    border: 1px solid transparent;
+  }
+  
+  .card {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 30px;
+    min-height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(12, 233, 233, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* .card:hover {
+    transform: perspective(1000px) rotateX(5deg) rotateY(5deg) scale3d(1.05, 1.05, 1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  } */
+  
+  .image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+  
+  .title {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .skillset {
+      padding: 10px;
+    }
+    
+    .card {
+      min-height: 150px;
+    }
+  }
+  

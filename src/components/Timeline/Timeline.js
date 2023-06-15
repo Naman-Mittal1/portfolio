@@ -3,7 +3,8 @@ import {  VerticalTimeline,   VerticalTimelineElement } from "react-vertical-tim
 import "react-vertical-timeline-component/style.min.css";
 import WorkIcon from '@material-ui/icons/Work';
 import SchoolIcon from '@material-ui/icons/School';
-import StarIcon from '@material-ui/icons/Star';
+import CodeIcon from '@material-ui/icons/Code';
+import GroupIcon from '@material-ui/icons/Group';
 import './Timeline.css'
 
 const Timeline = () => {
@@ -19,98 +20,102 @@ const Timeline = () => {
     </div>
     
     <VerticalTimeline>
-      <VerticalTimelineElement
+
+    <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        date="2011 - present"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        icon={<WorkIcon />}
+        contentStyle={{ background: "rgb(13 55 76)", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(13 55 76)" }}
+        date="May 2023 - present"
+        iconStyle={{ background: "#081b29", color: "#f8efef" }}
+        icon={<GroupIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Creative Director</h3>
-        <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+        <h3 className="vertical-timeline-element-title">Chitzy - A Chat Application</h3>
+        <h4 className="vertical-timeline-element-subtitle">Personal Project</h4>
         <p>
-          Creative Direction, User Experience, Visual Design, Project
-          Management, Team Leading
+          Building a chat application that helps user connect to their contacts and also random people. and an application that includes unique features like Special Event Planner, Virtual Gifts, Chatbot Assistance and many more premium features.   
+        </p>
+      </VerticalTimelineElement>  
+
+    <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "rgb(13 55 76)", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(13 55 76)" }}
+        date="March 2023"
+        iconStyle={{ background: "#081b29", color: "#f8efef" }}
+        icon={<CodeIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">Rajasthan IT Hackathon</h3>
+        <h4 className="vertical-timeline-element-subtitle">Jaipur, Rajasthan</h4>
+        <p>
+          Participated in Rajasthan IT Day Hackathon, and build a solution for reducing the food wastage by creating an application to minimize food wastage.
         </p>
       </VerticalTimelineElement>
+
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2010 - 2011"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentStyle={{ background: "rgb(13 55 76)", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(13 55 76)" }}
+        date="Nov 2022 - Apr 2023"
+        iconStyle={{ background: "#081b29", color: "#f8efef" }}
         icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Art Director</h3>
-        <h4 className="vertical-timeline-element-subtitle">
-          San Francisco, CA
-        </h4>
+        <h3 className="vertical-timeline-element-title">Web Developer Intern at MetaBlock Technologies</h3>
+        <h4 className="vertical-timeline-element-subtitle">Jaipur, Rajasthan</h4>
         <p>
-          Creative Direction, User Experience, Visual Design, SEO, Online
-          Marketing
+        Worked as an Intern for 6 months, and Managed, Designed & Developed a complete responsive company's website using HTML, CSS, Javascript and JQuery.
         </p>
-      </VerticalTimelineElement>
+      </VerticalTimelineElement>  
+
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2008 - 2010"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        icon={<WorkIcon />}
+        contentStyle={{ background: "rgb(13 55 76)", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(13 55 76)" }}
+        date="Oct 2022"
+        iconStyle={{ background: "#081b29", color: "#f8efef" }}
+        icon={<CodeIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-        <p>User Experience, Visual Design</p>
-      </VerticalTimelineElement>
+        <h3 className="vertical-timeline-element-title">Code Red 2.0 - VGU Hackathon</h3>
+        <h4 className="vertical-timeline-element-subtitle">Jaipur, Rajasthan</h4>
+        <p>
+          Participated in 72 Hours Hackathon, and built a solution of Low Productivity and lack of visibility in supply chain for farmers.
+        </p>
+      </VerticalTimelineElement> 
+
+
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2006 - 2008"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        icon={<WorkIcon />}
-      >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">
-          San Francisco, CA
-        </h4>
-        <p>User Experience, Visual Design</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--education"
-        date="April 2013"
-        iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+        contentStyle={{ background: "rgb(13 55 76)", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(13 55 76)" }}
+        date="2020 - present"
+        iconStyle={{ background: "#081b29", color: "#f8efef" }}
         icon={<SchoolIcon />}
       >
-        <h3 className="vertical-timeline-element-title">
-          Content Marketing for Web, Mobile and Social Media
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-        <p>Strategy, Social Media</p>
-      </VerticalTimelineElement>
+        <h3 className="vertical-timeline-element-title">Swami Keshvanand Institute of Technology, Management and Gramothan</h3>
+        <h4 className="vertical-timeline-element-subtitle">Jaipur, Rajasthan</h4>
+        <p>
+        Pursuing Bachleor's of Technology in Computer Science with an aggregate of 9.55 CGPA
+        </p>
+      </VerticalTimelineElement> 
+      
       <VerticalTimelineElement
-        className="vertical-timeline-element--education"
-        date="November 2012"
-        iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "rgb(13 55 76)", color: "#fffeee" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(13 55 76)" }}
+        date="2014 - 2020"
+        iconStyle={{ background: "#081b29", color: "#f8efef" }}
         icon={<SchoolIcon />}
       >
-        <h3 className="vertical-timeline-element-title">
-          Agile Development Scrum Master
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-        <p>Creative Direction, User Experience, Visual Design</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--education"
-        date="2002 - 2006"
-        iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-        icon={<SchoolIcon />}
-      >
-        <h3 className="vertical-timeline-element-title">
-          Bachelor of Science in Interactive Digital Media Visual Imaging
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-        <p>Creative Direction, Visual Design</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+        <h3 className="vertical-timeline-element-title">KMD Public Sr. Sec. School</h3>
+        <h4 className="vertical-timeline-element-subtitle">Jaipur, Rajasthan</h4>
+        <p>
+        Finished secondary and senior secondary education
+        </p>
+      </VerticalTimelineElement> 
+
+      {/* <VerticalTimelineElement
+        iconStyle={{ background: "lightgray", color: "#fff" }}
         icon={<StarIcon />}
-      />
+      /> */}
     </VerticalTimeline>
     </>
   );

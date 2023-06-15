@@ -95,6 +95,16 @@ const HeadInfo = () => {
         </p>
       );
     },
+
+    naman: () => {
+      return (
+        <p style={{marginTop: '10px'}}>
+          <span style={{  marginTop: '10px', color: 'var(--text-color)' }}>
+          Yay! You got the hidden command. I am Naman Mittal <br /> <br /> Find some tough ones now ..
+        </span>
+        </p>
+      );
+    },
   
     aboutme: () => {
       return (
@@ -120,6 +130,8 @@ const HeadInfo = () => {
         </p>
       );
     },
+
+    
   
     projects: () => {
       return (
@@ -151,10 +163,10 @@ const HeadInfo = () => {
           <a href="#" className="active">
             Home
           </a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Portfolio</a>
-          <a href="#">Contact</a>
+          <a href="#">Skillset</a>
+          <a href="#">Work Experience</a>
+          <a href="#">Projects</a>
+          <a href="#">Let's Connect</a>
         </nav>
       </header>
       <section className="home">
@@ -162,9 +174,7 @@ const HeadInfo = () => {
           <h1>Hi, I'm Naman Mittal</h1>
           <h3>Frontend Developer</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, voluptatibus. Id numquam, maiores
-            obcaecati architecto voluptas voluptate, facere iusto asperiores accusamus dignissimos quibusdam
-            voluptates, exercitationem reprehenderit eaque.
+            Skilled MERN Developer, looking for opportunities to show and create unique applications. Intersted in Designing, working on creative Ideas, and using morden technology. <br /> <br /> Also love to stay up-to-date with chess. Explore the terminal you may find some new commands.
           </p>
           <div className="btn-box">
             <a href="#" className="hire-button">
