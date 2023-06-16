@@ -5,24 +5,24 @@ import { FaLinkedin, FaTwitter, FaEnvelope, FaGithub, FaDiscord } from 'react-ic
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <a href="https://www.linkedin.com/in/salokya-kumar/">
+      <a href="https://www.linkedin.com/in/namanmittal1/">
         <FaLinkedin className={styles.socialicon} />
       </a>
-      <a href="https://twitter.com/ksalokya">
+      <a href="https://twitter.com/_naman_mittal">
         <FaTwitter className={styles.socialicon} />
       </a>
-      <a href="mailto:kumar.salokya007@gmail.com">
+      <a href="mailto:mittalnaman08@gmail.com">
         <FaEnvelope className={styles.socialicon} />
       </a>
-      <a href="https://github.com/your-github-profile">
+      <a href="https://github.com/Naman-Mittal1">
         <FaGithub className={styles.socialicon} />
       </a>
-      <a href="https://discord.gg/your-discord-server">
+      <a href="https://linktr.ee/naman_mittal">
         <FaDiscord className={styles.socialicon} />
       </a>
       <p>
         Designed &amp; Developed with ❤️ by 
-        <a href="https://www.linkedin.com/in/salokya-kumar/">Naman Mittal   </a>
+        <a href="https://www.linkedin.com/in/namanmittal1">Naman Mittal   </a>
       </p>
     </div>
   );

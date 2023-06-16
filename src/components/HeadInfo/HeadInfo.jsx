@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaDiscord, FaDownload, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { ReactTerminal } from 'react-terminal';
 import Typewriter from 'typewriter-effect';
+import Resume from '../../assets/Resume.pdf';
 import './HeadInfo.css';
 
 const HeadInfo = () => {
@@ -151,25 +152,25 @@ const HeadInfo = () => {
 
   return (
     <div className="App">
-     <header className="header">
-  <a href="#" className="logo">
-    Naman.
-  </a>
-  <div className={`hamburger-menu ${isActive ? 'active' : ''}`} onClick={toggleMenu}>          
-    <div className="line"></div>
-    <div className="line"></div>
-    <div className="line"></div>
-  </div>
-  <nav className={`navbar ${isActive ? 'show' : ''}`}>
-    <a href="#" className="active">
-      Home
-    </a>
-    <a href="#">Skillset</a>
-    <a href="#">Work Experience</a>
-    <a href="#">Projects</a>
-    <a href="#">Let's Connect</a>
-  </nav>
-</header>
+      <header className="header">
+        <a href="#" className="logo">
+          Naman.
+        </a>
+        <div className={`hamburger-menu ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+        </div>
+        <nav className={`navbar ${isActive ? 'show' : ''}`}>
+          <a href="#" className="active">
+            Home
+          </a>
+          <a href="#">Skillset</a>
+          <a href="#">Work Experience</a>
+          <a href="#">Projects</a>
+          <a href="#">Let's Connect</a>
+        </nav>
+      </header>
 
       <section className="home">
         <div className="home-content">
@@ -196,9 +197,9 @@ const HeadInfo = () => {
             <a href="#" className="hire-button" style={{ width: '60%' }}>
               Let's Talk
             </a>
-            <a href="#" className="talk-button" style={{ display: 'flex', justifyContent: 'space-around', width: '60%' }}>
-              Resume <FaDownload />
-            </a>
+            <a href={Resume} download="Resume.pdf" className="talk-button" style={{ display: 'flex', backgroundColor: 'rgb(6 143 208)', color: 'white' , justifyContent: 'space-around', width: '60%' }}>
+            Resume <FaDownload />
+          </a>
           </div>
         </div>
         <div className="right-side">
