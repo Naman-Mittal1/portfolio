@@ -24,14 +24,14 @@ function ProjectCard({
           <br />
 
           {link && (
-            <LinkToNewTab href={link}>
-              <button className={styles.seelive}>See Live</button>
-            </LinkToNewTab>
+            <button className={styles.seelive} onClick={() => window.open(link, '_blank')}>
+              See Live
+            </button>
           )}
           {github && (
-            <LinkToNewTab href={github}>
-              <button className={styles.viewcode}>View Code</button>
-            </LinkToNewTab>
+            <button className={styles.viewcode} onClick={() => window.open(github, '_blank')}>
+              View Code
+            </button>
           )}
         </div>
       </div>

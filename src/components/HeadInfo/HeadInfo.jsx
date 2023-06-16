@@ -36,10 +36,6 @@ const HeadInfo = () => {
     color: 'var(--text-color)'
   };
 
-  const indentLevel1 = {
-    marginLeft: '15px'
-  };
-
   const buttonColor = {
     color: 'var(--button-color)'
   };
@@ -153,7 +149,7 @@ const HeadInfo = () => {
   return (
     <div className="App">
       <header className="header">
-        <a href="#" className="logo">
+      <a href="/home" className="logo">
           Naman.
         </a>
         <div className={`hamburger-menu ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
@@ -162,7 +158,7 @@ const HeadInfo = () => {
           <div className="line"></div>
         </div>
         <nav className={`navbar ${isActive ? 'show' : ''}`}>
-          <a href="#" className="active">
+          <a href="/home" className="active">
             Home
           </a>
           <a href="#">Skillset</a>
