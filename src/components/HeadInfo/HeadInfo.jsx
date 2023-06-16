@@ -8,50 +8,51 @@ import './HeadInfo.css';
 const HeadInfo = () => {
   const [isActive, setIsActive] = useState(false);
 
-  const toggleMenu = () => {
-    setIsActive(!isActive);
-  };
 
-  const welcomeMessage = (
-    <span>
-      Welcome to the terminal!
-      <br />
-      <br />
-      Get started by typing <strong style={{ color: '#00abfe' }}>help</strong> command below . . .
-      <br />
-      <br />
-    </span>
-  );
+    const toggleMenu = () => {
+      setIsActive(!isActive);
+    };
 
-  const errorMessageStyling = {
-    color: 'red',
-    marginTop: '5px'
-  };
-
-  const promptStyling = {
-    color: '#00abfe'
-  };
-
-  const textColor = {
-    color: 'var(--text-color)'
-  };
-
-  const buttonColor = {
-    color: 'var(--button-color)'
-  };
-
-  const theme = {
-    background: 'black',
-    promptSymbolColor: '#00abfe',
-    commandColor: '#00abfe',
-    outputColor: 'var(--text-color)',
-    errorOutputColor: 'red',
-    fontSize: '1rem',
-    spacing: '2%',
-    fontFamily: 'Courier New, monospace',
-    width: '100%',
-    height: '100%'
-  };
+    const welcomeMessage = (
+      <span>
+        Welcome to the terminal!
+        <br />
+        <br />
+        Get started by typing <strong style={{ color: '#00abfe' }}>help</strong> command below . . .
+        <br />
+        <br />
+      </span>
+    );
+  
+    const errorMessageStyling = {
+      color: 'red',
+      marginTop: '5px'
+    };
+  
+    const promptStyling = {
+      color: '#00abfe'
+    };
+  
+    const textColor = {
+      color: 'var(--text-color)'
+    };
+  
+    const buttonColor = {
+      color: 'var(--button-color)'
+    };
+  
+    const theme = {
+      background: 'black',
+      promptSymbolColor: '#00abfe',
+      commandColor: '#00abfe',
+      outputColor: 'var(--text-color)',
+      errorOutputColor: 'red',
+      fontSize: '1rem',
+      spacing: '2%',
+      fontFamily: 'Courier New, monospace',
+      width: '100%',
+      height: '100%'
+    };  
 
   const commands = {
     help: () => {
@@ -148,18 +149,49 @@ const HeadInfo = () => {
 
   return (
     <div className="App">
-      <header className="header">
+ <header className="header">
         <a href="/home" className="logo">
           Naman.
         </a>
-        {/* ... */}
+        <div className={`hamburger-menu ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+        </div>
+        <nav className={`navbar ${isActive ? 'show' : ''}`}>
+          <a href="/home" className="active">
+            Home
+          </a>
+          <a href="/home">Skillset</a>
+          <a href="/home">Work Experience</a>
+          <a href="/home">Projects</a>
+          <a href="/home">Let's Connect</a>
+        </nav>
       </header>
 
       <section className="home">
-        <div className="home-content">
-          {/* ... */}
+      <div className="home-content">
+          <h1>
+            Hi, I'm Naman Mittal
+            {/* <br /> */}
+          </h1>
+          <h3>
+            <Typewriter
+              options={{
+                strings: ['Copy Paste Developer', 'Developer', 'College'],
+                autoStart: true,
+                loop: true
+              }}
+            />
+          </h3>
+
+          <p>
+            Skilled MERN Developer, looking for opportunities to show and create unique applications. Interested in
+            Designing, working on creative Ideas, and using modern technology. <br /> <br /> Also love to stay up-to-date
+            with chess. Explore the terminal you may find some new commands.
+          </p>
           <div className="btn-box">
-            <a href="#" className="hire-button" style={{ width: '60%' }}>
+            <a href="/home" className="hire-button" style={{ width: '60%' }}>
               Let's Talk
             </a>
             <a
@@ -180,7 +212,16 @@ const HeadInfo = () => {
         </div>
         <div className="right-side">
           <div style={{ width: '100%', height: '400px', border: '2px solid #fff' }}>
-            {/* ... */}
+          <ReactTerminal
+              prompt={<span style={promptStyling}>$ naman &gt;&gt;</span>}
+              commands={commands}
+              welcomeMessage={<span style={textColor}>{welcomeMessage}</span>}
+              errorMessage={<span style={errorMessageStyling}>Command not found!</span>}
+              inputColor="var(--text-color)"
+              outputColor="var(--text-color)"
+              backgroundColor="var(--background-color)"
+              theme={theme}
+            />
           </div>
         </div>
         <div className="home-sci">

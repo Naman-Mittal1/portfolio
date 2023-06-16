@@ -1,8 +1,8 @@
 import React from "react";
 import { Tilt } from "react-tilt";
-import { Button, ButtonAlternate } from "../shared/Button/Button";
+// import { Button, ButtonAlternate } from "../shared/Button/Button";
 import DevIcons from "../shared/DevIcons/DevIcons";
-import LinkToNewTab from "../shared/LinkToNewTab/LinkToNewTab";
+// import LinkToNewTab from "../shared/LinkToNewTab/LinkToNewTab";
 import styles from "./ProjectCard.module.css";
 
 function ProjectCard({
