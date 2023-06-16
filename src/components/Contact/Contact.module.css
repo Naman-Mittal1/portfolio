@@ -95,7 +95,12 @@ textarea.formControl {
   text-align: center;
 }
 
+
 @media (max-width: 768px) {
+
+  .formContainer{
+    width: 100%;
+  }
   .contactContainer {
     flex-direction: column;
     padding: 20px;
@@ -104,5 +109,26 @@ textarea.formControl {
   .gifContainer {
     padding: 0;
     margin-bottom: 20px;
+  }
+
+  .sectionHeader h3 {
+    margin: 5% 0 3% 5%;
+  }
+
+  .contact h2{
+    font-size: 39px;
+  }
+
+  .contact{
+    padding: 0 13px;
+    margin: 10% 2% 6% 2%;
+  }
+  .contact p{
+    /* display: none; */
+    font-size: 20px;
+  }
+
+  .contactme{
+    margin: 0 !important; 
   }
 }

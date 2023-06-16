@@ -118,7 +118,7 @@
 
 @media only screen and (max-width: 1024px) {
     .main {
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
     }
     .main .description {
         width: 100%;
@@ -130,3 +130,26 @@
         border: none;
     }
 }
+
+@media (max-width: 768px) {
+
+    .main .description .cardText h1 {
+        color: rgb(210, 253, 253);
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 13px;
+    }
+
+    .main .description .cardText {
+        padding: 0 13px;
+        margin: 0% 2% 3% 2%;
+    }
+
+    .main .description .cardText h3 {
+        line-height: 1.8rem;
+        text-align: justify;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+  }

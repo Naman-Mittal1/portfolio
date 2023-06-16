@@ -5,8 +5,30 @@
 
 .projectme{
     margin:3% 0 3% 10% !important; 
-  }
+}
 
 .container h1 {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+
+    .container {
+        /*  background-color: var(--light-shade); */
+        padding: 0;
+    }
+
+    .projectme h2{
+      font-size: 39px;
+    }
+
+    .projectme{
+      padding: 0 13px;
+      margin: 10% 2% 6% 2% !important;
+    }
+
+    .projectme p{
+      /* display: none; */
+      font-size: 20px;
+    }
+  }

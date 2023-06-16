@@ -45,12 +45,35 @@
   }
   
   @media (max-width: 768px) {
+
+    .skillsetmodule{
+      /*  */
+      /* padding: 0 13px; */
+    }
+    
     .skillset {
       padding: 10px;
+      justify-content: space-around;
+      gap: 28px;
     }
     
     .card {
       min-height: 150px;
     }
+
+    .skillsetme h2{
+      font-size: 39px;
+    }
+
+    .skillsetme{
+      padding: 0 13px;
+      margin: 10% 2% 6% 2%;
+    }
+    .skillsetme p{
+      /* display: none; */
+      font-size: 20px;
+    }
   }
+
+
   

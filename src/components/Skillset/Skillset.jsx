@@ -15,12 +15,13 @@ import git from '../../assets/git.png';
 const Skillset = () => {
   return (
     <>
+    <div className={styles.skillsetmodule}>
     <div className={styles.skillsetme}>
       <p className="base-text sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
-        I have worked with these
+      Worked with Technologies & Tools
       </p>
       <h2 className="experience-text text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
-        Technologies and Tools
+        Skillset
       </h2>
     </div>
     <div className={`${styles.skillset} ${styles.border}`}>
@@ -115,6 +116,7 @@ const Skillset = () => {
           <h3 className={styles.title}>GitHub</h3>
         </div>
       </Tilt>
+    </div>
     </div>
     </>
   );

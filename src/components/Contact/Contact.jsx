@@ -10,7 +10,7 @@ const Contact = () => {
         Discuss a Project &
       </p>
       <h2 className="experience-text text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
-        Connect..
+        Let's Connect..
       </h2>
     </div> 
       <div className={styles.contactContainer}>
