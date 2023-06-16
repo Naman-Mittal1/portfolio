@@ -1,10 +1,11 @@
 import React from "react";
 import {  VerticalTimeline,   VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import WorkIcon from '@material-ui/icons/Work';
-import SchoolIcon from '@material-ui/icons/School';
-import CodeIcon from '@material-ui/icons/Code';
-import GroupIcon from '@material-ui/icons/Group';
+import { FaBriefcase as WorkIcon } from 'react-icons/fa';
+import { FaSchool as SchoolIcon } from 'react-icons/fa';
+import { FaCode as CodeIcon } from 'react-icons/fa';
+import { FaUsers as GroupIcon } from 'react-icons/fa';
+
 import './Timeline.css'
 
 const Timeline = () => {
