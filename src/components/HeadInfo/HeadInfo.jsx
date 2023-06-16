@@ -150,7 +150,7 @@ const HeadInfo = () => {
   return (
     <div className="App">
  <header className="header">
-        <a href="/home" className="logo">
+        <a href="/" className="logo">
           Naman.
         </a>
         <div className={`hamburger-menu ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
@@ -159,13 +159,13 @@ const HeadInfo = () => {
           <div className="line"></div>
         </div>
         <nav className={`navbar ${isActive ? 'show' : ''}`}>
-          <a href="/home" className="active">
+          <a href="/" className="active">
             Home
           </a>
-          <a href="/home">Skillset</a>
-          <a href="/home">Work Experience</a>
-          <a href="/home">Projects</a>
-          <a href="/home">Let's Connect</a>
+          <a href="/">Skillset</a>
+          <a href="/">Work Experience</a>
+          <a href="/">Projects</a>
+          <a href="/">Let's Connect</a>
         </nav>
       </header>
 
@@ -191,7 +191,7 @@ const HeadInfo = () => {
             with chess. Explore the terminal you may find some new commands.
           </p>
           <div className="btn-box">
-            <a href="/home" className="hire-button" style={{ width: '60%' }}>
+            <a href="/" className="hire-button" style={{ width: '60%' }}>
               Let's Talk
             </a>
             <a
