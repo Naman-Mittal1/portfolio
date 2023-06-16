@@ -178,7 +178,7 @@ const HeadInfo = () => {
           <h3>
             <Typewriter
               options={{
-                strings: ['Copy Paste Developer', 'Developer', 'College'],
+                strings: ['Full Stack Developer', 'Tech Enthusiast', 'Open Source Contributor', 'Web Developer'],
                 autoStart: true,
                 loop: true
               }}
