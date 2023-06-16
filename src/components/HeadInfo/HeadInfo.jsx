@@ -149,80 +149,51 @@ const HeadInfo = () => {
   return (
     <div className="App">
       <header className="header">
-      <a href="/home" className="logo">
+        <a href="/home" className="logo">
           Naman.
         </a>
-        <div className={`hamburger-menu ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
-        </div>
-        <nav className={`navbar ${isActive ? 'show' : ''}`}>
-          <a href="/home" className="active">
-            Home
-          </a>
-          <a href="#">Skillset</a>
-          <a href="#">Work Experience</a>
-          <a href="#">Projects</a>
-          <a href="#">Let's Connect</a>
-        </nav>
+        {/* ... */}
       </header>
 
       <section className="home">
         <div className="home-content">
-          <h1>
-            Hi, I'm Naman Mittal
-            {/* <br /> */}
-          </h1>
-          <h3>
-            <Typewriter
-              options={{
-                strings: ['Copy Paste Developer', 'Developer', 'College'],
-                autoStart: true,
-                loop: true
-              }}
-            />
-          </h3>
-
-          <p>
-            Skilled MERN Developer, looking for opportunities to show and create unique applications. Interested in
-            Designing, working on creative Ideas, and using modern technology. <br /> <br /> Also love to stay up-to-date
-            with chess. Explore the terminal you may find some new commands.
-          </p>
+          {/* ... */}
           <div className="btn-box">
             <a href="#" className="hire-button" style={{ width: '60%' }}>
               Let's Talk
             </a>
-            <a href={Resume} download="Resume.pdf" className="talk-button" style={{ display: 'flex', backgroundColor: 'rgb(6 143 208)', color: 'white' , justifyContent: 'space-around', width: '60%' }}>
-            Resume <FaDownload />
-          </a>
+            <a
+              href={Resume}
+              download="Resume.pdf"
+              className="talk-button"
+              style={{
+                display: 'flex',
+                backgroundColor: 'rgb(6 143 208)',
+                color: 'white',
+                justifyContent: 'space-around',
+                width: '60%',
+              }}
+            >
+              Resume <FaDownload />
+            </a>
           </div>
         </div>
         <div className="right-side">
           <div style={{ width: '100%', height: '400px', border: '2px solid #fff' }}>
-            <ReactTerminal
-              prompt={<span style={promptStyling}>$ naman &gt;&gt;</span>}
-              commands={commands}
-              welcomeMessage={<span style={textColor}>{welcomeMessage}</span>}
-              errorMessage={<span style={errorMessageStyling}>Command not found!</span>}
-              inputColor="var(--text-color)"
-              outputColor="var(--text-color)"
-              backgroundColor="var(--background-color)"
-              theme={theme}
-            />
+            {/* ... */}
           </div>
         </div>
         <div className="home-sci">
-          <a href="https://www.linkedin.com/in/namanmittal1/">
+          <a href="https://www.linkedin.com/in/namanmittal1/" rel="noopener noreferrer" target="_blank">
             <FaLinkedin />
           </a>
-          <a href="https://github.com/Naman-Mittal1">
+          <a href="https://github.com/Naman-Mittal1" rel="noopener noreferrer" target="_blank">
             <FaGithub />
           </a>
-          <a href="https://twitter.com/_naman_mittal">
+          <a href="https://twitter.com/_naman_mittal" rel="noopener noreferrer" target="_blank">
             <FaTwitter />
           </a>
-          <a href="https://linktr.ee/naman_mittal">
+          <a href="https://linktr.ee/naman_mittal" rel="noopener noreferrer" target="_blank">
             <FaDiscord />
           </a>
         </div>
