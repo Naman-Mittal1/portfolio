@@ -11,6 +11,7 @@ import './Timeline.css'
 const Timeline = () => {
   return (
     <>
+    <div id="work-experience">
     <div className="bg-primary">
       <p className="base-text sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
         Education and
@@ -118,6 +119,7 @@ const Timeline = () => {
         icon={<StarIcon />}
       /> */}
     </VerticalTimeline>
+    </div>
     </>
   );
 };

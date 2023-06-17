@@ -11,6 +11,12 @@ body {
     color: #ededed;
 }
 
+.transition {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+
 .talk-button:hover{
     background-color: #00334c !important;
     color: #d3ebf7 !important;

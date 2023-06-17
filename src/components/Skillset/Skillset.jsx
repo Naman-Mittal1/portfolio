@@ -15,7 +15,7 @@ import git from '../../assets/git.png';
 const Skillset = () => {
   return (
     <>
-    <div className={styles.skillsetmodule}>
+    <div className={styles.skillsetmodule} id="skillset">
     <div className={styles.skillsetme}>
       <p className="base-text sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
       Worked with Technologies & Tools

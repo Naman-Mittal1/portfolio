@@ -8,6 +8,7 @@ function Projects() {
 
   return (
     <>
+    <div id="project-info">
     <div className={styles.projectme}>
           <p className={`base-text text-secondary uppercase tracking-wider sm:text-[18px] text-[14px]`}>
             Contributed & Worked on
@@ -28,7 +29,8 @@ function Projects() {
             />
           );
         })}
-      </div>
+    </div>
+    </div>
 
       </>
   );
