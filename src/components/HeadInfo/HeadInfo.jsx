@@ -122,7 +122,7 @@ const HeadInfo = () => {
           </p>
           <p style={{ marginTop: "10px", marginLeft: "15px" }}>
             <span style={buttonColor}>chess: </span>
-            <span style={textColor}>let's connect.. get my chess.com username using this command</span>
+            <span style={textColor}>chess: get my chess.com username.</span>
           </p>
         </div>
       );
