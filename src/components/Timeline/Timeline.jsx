@@ -103,14 +103,14 @@ const Timeline = () => {
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(13 55 76)", color: "#fffeee" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(13 55 76)" }}
-        date="2014 - 2020"
+        date="2014 - 2019"
         iconStyle={{ background: "#081b29", color: "#f8efef" }}
         icon={<SchoolIcon />}
       >
         <h3 className="vertical-timeline-element-title">KMD Public Sr. Sec. School</h3>
         <h4 className="vertical-timeline-element-subtitle">Jaipur, Rajasthan</h4>
         <p>
-        Finished secondary and senior secondary education
+        Completed my secondary education in 2017 and my senior secondary education in 2019.
         </p>
       </VerticalTimelineElement> 
 
