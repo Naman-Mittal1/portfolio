@@ -18,7 +18,7 @@ const Contact = () => {
           <img src={gifImage} alt="GIF" className={styles.gifImage} />
         </div>
         <div className={styles.formContainer}>
-          <form className={styles.form}>
+          <form action="https://formspree.io/f/xdoreryy" method="post" className={styles.form}>
             <div className={styles.formGroup}>
               <input
                 type="text"
