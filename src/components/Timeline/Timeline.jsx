@@ -23,6 +23,21 @@ const Timeline = () => {
     
     <VerticalTimeline>
 
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "rgb(13 55 76)", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(13 55 76)" }}
+        date="July 2023"
+        iconStyle={{ background: "#081b29", color: "#f8efef" }}
+        icon={<GroupIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">Bengaluru Open Mobility Challenge' 23</h3>
+        <h4 className="vertical-timeline-element-subtitle">Hackathon</h4>
+        <p>
+          Honorary mention for solving booking without app problem at Bengaluru Hackathon, hosted by Namma Yatri and ONDC.   
+        </p>
+      </VerticalTimelineElement> 
+      
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(13 55 76)", color: "#fff" }}
